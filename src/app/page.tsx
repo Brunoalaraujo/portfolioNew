@@ -7,11 +7,12 @@ export default function Home() {
       <header>
         <SocialMedia />
       </header>
-      <section>
-        <h1>
+      <section className="px-40 my-5 w-screen">
+        <h1 className="text-8xl	font-blod tracking-tighter">
           Nice to meet you!
           <br />
-          I'm Bruno Andrade
+          I'm{" "}
+          <span className="border-b-4 border-greenCuston">Bruno Andrade</span>
         </h1>
         <p>
           Based in the UK, I'm a front-end developer passionate about building
