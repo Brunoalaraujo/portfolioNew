@@ -18,6 +18,9 @@
 
 body {
   background-color: theme("colors.blackBg");
+  display: flex;
+  justify-content: center;
+  color: #fff;
 }
 
 @layer utilities {
