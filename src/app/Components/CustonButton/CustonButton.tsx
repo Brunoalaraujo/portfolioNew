@@ -11,7 +11,7 @@ export default function CustonButton({
 }: CustonButtonProps) {
   return (
     <Link
-      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      className="text-white text-base font-bold leading-relaxed tracking-widest uppercase border-b-2 pb-2 border-greenCuston"
       href={`#${targetId}`}
     >
       {buttonText}
