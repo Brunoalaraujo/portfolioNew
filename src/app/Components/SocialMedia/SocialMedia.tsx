@@ -5,8 +5,12 @@ import FrontendMentorIcon from "../Icons/FrontendMentorIcon";
 
 export default function SocialMedia() {
   return (
-    <nav className="flex px-40 my-5 w-screen justify-between">
-      <Link className="text-whiteCuston" href={"/"} role="link">
+    <nav className="flex mt-10 mb-32 justify-between">
+      <Link
+        className="text-[32px] font-bold leading-loose"
+        href={"/"}
+        role="link"
+      >
         BrunoAndrade
       </Link>
       <ul className="flex w-48 justify-around">
