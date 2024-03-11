@@ -3,9 +3,15 @@ import GithubIcon from "../Icons/GithubIcon";
 import LinkedinIcon from "../Icons/LinkedinIcon";
 import FrontendMentorIcon from "../Icons/FrontendMentorIcon";
 
-export default function SocialMedia() {
+interface SocialMediaProps {
+  className?: string;
+}
+
+export default function SocialMedia({ className }: SocialMediaProps) {
   return (
-    <nav className="flex mt-10 mb-32 justify-between">
+    <nav
+      className={`flex flex-grow items-center max-w-[1110px]  justify-between ${className}`}
+    >
       <Link
         className="text-[32px] font-bold leading-loose"
         href={"/"}

@@ -10,10 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         blackBg: "#151515",
-        greenCuston: "#4EE1A0",
-        greyCuston: "#242424",
+        greenCustom: "#4EE1A0",
+        grayCustom: "#242424",
         gainsboro: "#D9D9D9",
-        whiteCuston: "#FFF",
       },
     },
   },
